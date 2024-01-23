@@ -1,0 +1,197 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", sans-serif;
+ }
+ nav{
+   display: flex;
+   background-color: #333;
+   justify-content: space-between;
+   padding: 22px 150px;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+ }
+ .navbar{
+   display: flex;
+   gap: 50px;
+ }
+ 
+ .navbar a{
+   color: white;
+   text-decoration: none;
+   font-size: medium;
+ }
+ .logo{
+   color: white;
+   font-weight: 800;
+ }
+ .img1{
+   background-image: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   
+ }
+ .text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   height: 85%;
+ }
+ .text h1{
+   font-weight: 800;
+   font-size: 60px;
+ }
+ .text p{
+   font-size: 20px;
+   padding-top: 20px;
+ }
+ .text a{
+     color: #000;
+     display: block;
+     text-transform: uppercase;
+     font-size: 18px;
+     margin: 0 10px;
+     padding: 10px 30px;
+     border-radius: 5px;
+     background: #fff;
+     border: 2px solid #fff;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+     text-decoration: none;
+     margin-top: 40px;
+     background-color: rgb(255, 255,255,0.1);
+ }
+ header{
+   background-color: skyblue;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 80px 0 0;
+ }
+ .card{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1200px;
+   margin-top: 50px;
+   padding: 0 10px;
+   justify-content: space-between;
+ }
+ .cards{
+   background: #fff;
+     padding: 40px 15px;
+     list-style: none;
+     border-radius: 5px;
+     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+     margin-bottom: 40px;
+     width: calc(100% / 3 - 30px);
+     text-align: center;
+     
+ }
+ img{
+   width: 120px;
+     height: 120px;
+     margin-bottom: 20px;
+     border-radius: 100%;
+     object-fit: cover;
+ }
+ .cards p{
+   padding: 0 15px;
+   margin-top: 5px 
+ }
+ .about .row {
+   padding: 0 200px;
+ }
+ 
+ .contact .row {
+   margin: 60px 0 90px;
+   display: flex;
+   max-width: 1200px;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .contact .row .col {
+   padding: 0 10px;
+   width: calc(100% / 2 - 50px);
+ }
+ 
+ .contact .col p {
+   margin-bottom: 10px;
+ }
+ 
+ .contact .col p i {
+   color: #7a7a7a;
+   margin-right: 10px;
+ }
+ 
+ .contact form input {
+   height: 45px;
+   margin-bottom: 20px;
+   padding: 10px;
+   width: 100%;
+   font-size: 16px;
+   outline: none;
+   border: 1px solid #bfbfbf;
+ }
+ 
+ .contact form textarea {
+   padding: 10px;
+   width: 100%;
+   font-size: 16px;
+   height: 150px;
+   outline: none;
+   resize: vertical;
+   border: 1px solid #bfbfbf;
+ }
+ 
+ .contact form button {
+   margin-top: 10px;
+   padding: 10px 20px;
+   font-size: 17px;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   background: #333;
+   transition: 0.2s ease;
+ }
+ 
+ .contact form button:hover {
+   background: #525252;
+ }
+ .contact h2{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 10px;
+ }
+ .p1{
+   text-align: center;
+ }
+ .about h2{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 10px;
+ }
+ .p2{
+   text-align: center;
+   margin-bottom: 30px;
+ }
+ .row{
+   margin-bottom: 20px;
+ }
+ .h31{
+   margin-bottom: 10px;
+ }
+ .p3{
+   margin-bottom: 20px;
+ }
+ #cp{
+   padding-left: 110px;
+ }
